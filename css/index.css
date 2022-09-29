@@ -1,0 +1,544 @@
+@media screen and (min-width:970px) {
+	.container {
+		width: 970px;
+	}
+}
+
+.navbar-default {
+	padding: 10px 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-bottom: 2px solid #0ba1e4;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 16px;
+}
+
+.navbar-brand {
+	padding: 0 15px;
+}
+
+@media screen and (min-width:768px) {
+	.navbar-nav>li {
+		padding: 0 15px;
+	}
+
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a.active {
+	color: #0ba1e4;
+	position: relative;
+
+}
+
+.navbar-default .navbar-nav>li>a .line {
+	width: 40%;
+	height: 1px;
+	position: absolute;
+	background-color: #0ba1e4;
+	left: 50%;
+	bottom: 0px;
+	transform: translateX(-50%);
+	display: none;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover .line {
+	display: block;
+}
+
+/* 
+.navbar-default .navbar-nav>li:nth-child(1)>a .line{
+	display: block;
+}
+显示第一个li里面a标签下的横杠 */
+/* .navbar-fixed-top {
+	position: sticky;
+} */
+
+.navbar {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+	.navbar-fixed-top {
+		position: static;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-weight: 300;
+	color: #666;
+}
+
+.line_bg {
+	width: 80px;
+	height: 2px;
+	margin: 30px auto 25px;
+	background-color: #0ba1e4;
+}
+
+.padd_t50px {
+	padding-top: 50px;
+}
+
+.padd_b30px {
+	padding-bottom: 30px;
+}
+
+.padd_b50px {
+	padding-bottom: 50px;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+	margin: auto;
+}
+
+.our-date-main {
+	font-size: 45px;
+	color: #0ba1e4;
+}
+
+.main-title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.our-whyus {
+	background-color: #e1e1e1;
+
+}
+
+.our-whyus-main {
+	transition: all 0.225s;
+	text-align: center;
+	background-color: #fafafa;
+	border: 1px solid #c1c1c1;
+	padding: 10px;
+
+}
+
+.our-whyus-main .glyphicon {
+	color: #0ba1e4;
+	font-size: 80px;
+	line-height: 1.5em;
+}
+
+.our-whyus-main h3 {
+	padding-bottom: 15px;
+}
+
+.our-whyus-main:hover>.glyphicon,
+.our-whyus-main:hover>h3 {
+	color: #fff;
+
+}
+
+.our-whyus-main:hover {
+	background-color: #0ba1e4;
+	border: 1px solid #0ba1e4;
+	box-shadow: 0 0 20px 0 rgb(45 183 245 / 50%);
+	color: #fff;
+}
+
+.our-service {
+	border: 1px solid #999;
+	background-color: #ffffff;
+	height: 450px;
+	margin-bottom: 50px;
+}
+
+.our-service a {
+	background-color: none;
+	border-color: #5db8ff;
+	color: #0076d1;
+
+}
+
+.our-service:hover {
+	transform: scale(1.1);
+	transition: all 0.3s;
+	background-color: #0ba1e4;
+	border-color: #0ba1e4;
+	box-shadow: 0 0 8px #0ba1e4;
+	color: #fafafa;
+	z-index: 11;
+}
+
+.our-service:hover a {
+	color: #fafafa;
+	background-color: #0ba1e4;
+	border-color: #fafafa;
+}
+
+.our-service h4 {
+	font-weight: 600;
+	color: #0ba1e4;
+}
+
+.our-service:hover h4 {
+	color: #fafafa;
+}
+
+.our-service p {
+	line-height: 3em;
+}
+
+
+
+.btn-outline-inverse {
+	color: #fff;
+	background: transparent;
+	border-color: #fff;
+}
+
+.btn-outline-inverse:hover {
+	color: #0ba1e4;
+	text-shadow: none;
+	background-color: #fff;
+}
+
+.img_bg {
+	background-color: #c1c1c1;
+}
+
+.our-example {
+	border: 1px solid #34a263;
+	border-radius: 5px;
+	position: relative;
+	padding: 50px 20px 20px;
+	margin-top: 30px;
+}
+
+.our-example img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, -50%);
+}
+
+.our-example span {
+	color: #999;
+
+}
+
+.our-example p {
+	margin-bottom: 20px;
+	/* 盒子设置为弹性盒子 */
+	display: -webkit-box;
+	/* 内容垂直排布 */
+	-webkit-box-orient: vertical;
+	/* 定义为6行 */
+	line-clamp: 4;
+	-webkit-line-clamp: 4;
+	/* 溢出隐藏 */
+	overflow: hidden;
+}
+
+.our-example p span:last-child {
+	padding-top: 2px;
+}
+
+.our-example p em {
+	font-style: normal;
+	background-color: #999;
+	padding: 5px 8px;
+}
+
+.our-icon {
+	margin: 30px auto;
+	width: 70px;
+	height: 70px;
+}
+
+.caret-line {
+	border-top: 12px solid #34a263;
+	border-left: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	border-right: 12px solid transparent;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%, 100%);
+
+}
+
+.caret-line::after {
+	content: "";
+	border-top: 12px solid #e1e1e1;
+	border-left: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	border-right: 12px solid transparent;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translate(-12px, -13px);
+}
+
+/* 最新资讯 */
+.news a img {
+	width: 140px;
+	height: 110px;
+	max-width: 140px;
+}
+
+.news h4 {
+	height: 1.5em;
+	line-height: 1.5em;
+	/* 盒子设置为弹性盒子 */
+	display: -webkit-box;
+	/* 内容垂直排布 */
+	-webkit-box-orient: vertical;
+	/* 定义为6行 */
+	line-clamp: 1;
+	-webkit-line-clamp: 1;
+	/* 溢出隐藏 */
+	overflow: hidden;
+}
+
+.news h4 small a {
+	color: #5db8ff;
+}
+
+.news h4 small a:hover {
+
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.news .media-body p {
+	margin: 0;
+	color: #999;
+}
+
+.news .media-body p:nth-child(3) {
+
+
+	height: 3em;
+	line-height: 1.5em;
+	display: -webkit-box;
+	/* 内容垂直排布 */
+	-webkit-box-orient: vertical;
+	/* 定义为6行 */
+	line-clamp: 2;
+	-webkit-line-clamp: 2;
+	/* 溢出隐藏 */
+	overflow: hidden;
+}
+
+.news .media-body p a {
+
+	color: #999;
+}
+
+.news .media-body p a:hover {
+	color: #0ba1e4;
+	text-decoration: none;
+}
+
+/* 资讯结束 */
+/* 我们的客户 */
+.our-client img {
+	border: 1px solid #ccc;
+	margin: 10px 0;
+	width: 100%;
+	/* 滤镜 */
+	filter: grayscale(100%);
+	transition: all 0.5s;
+}
+
+.our-client img:hover {
+	filter: grayscale(0);
+	border: 1px solid #0ba1e4;
+	box-shadow: 0 0 5px #0ba1e4;
+}
+
+/* 我们的客户结束 */
+/* 全面解答 */
+.our-answer {
+	/* height: 260px; */
+	/* 渐变色  */
+	background: -webkit-linear-gradient(top, #0076d1, #5db8ff);
+	position: relative;
+	padding: 50px 0;
+}
+
+.our-answer-min {
+	margin: 20px auto;
+
+	color: #fafafa;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.our-answer-min h1 {
+	color: #fafafa;
+	border-bottom: 1px solid #fafafa;
+	padding: 10px 20px;
+}
+
+.our-answer-min a {
+	width: 100px;
+	margin: 20px;
+	background: none;
+	border: 1px solid #fafafa;
+	color: #fafafa;
+}
+
+.our-answer-min a:hover {
+	background-color: #fafafa;
+	color: #0ba1e4;
+	border: 1px solid #fafafa;
+}
+
+/* 全面解答结束 */
+/* 尾部 */
+.foot {
+	background-color: #333;
+}
+
+.foot-main div {
+	margin: 10px 0;
+	height: 180px;
+	border-left: 2px solid #fafafa;
+}
+
+.foot-main div:nth-child(4) img {
+	padding-top: 20px;
+	max-width: 100%;
+}
+.foot-main div:nth-child(4)  p{
+	text-align: center;
+}
+.foot-main div:nth-child(5) h2 img {
+	width: 40px;
+	height: 40px;
+}
+
+.foot-main h3 {
+	color: #fafafa;
+	padding-bottom: 25px;
+}
+
+.foot-main h2 {
+	color: #fafafa;
+}
+
+.foot-main p a {
+	color: #fafafa;
+}
+
+.foot-main p {
+	text-align: left;
+	color: #fafafa;
+}
+
+.foot-main div:nth-child(5) {
+	border-right: 2px solid #fafafa;
+}
+
+@media screen and (max-width:768px) {
+	.foot-main div:nth-child(5) {
+		border-right: none;
+	}
+
+}
+
+/* 尾部结束 */
+/* 备案 */
+.beian {
+	background-color: #666;
+	color: #fafafa;
+	padding: 50px;
+}
+
+.beian p {
+	padding-bottom: 20px;
+}
+
+
+/* 结束 */
+/* 固定定位 */
+.wrapper {
+	/* background-color: #0ba1e4; */
+	position: fixed;
+	right: 30px;
+	bottom: 150px;
+}
+
+.wrapper ul li {
+	background-color: #ebe8e8;
+	color: #0076d1;
+	margin: 5px 0;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid #0ba1e4;
+	list-style: none;
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+
+.wrapper ul li:hover {
+	background-color: #0ba1e4;
+
+}
+
+.wrapper ul li:hover i {
+	color: #fafafa;
+}
+
+.wrapper ul li i {
+	font-size: 30px;
+}
+
+.wrapper ul li a {
+	text-decoration: none;
+}
+
+.text1 {
+	position: absolute;
+	/* width: 100px; */
+	right: 55px;
+	bottom: 0;
+	display: none;
+	white-space: nowrap;
+}
+.wrapper ul li:nth-child(1) .text1{
+ top: 0;
+}
+.wrapper ul li:hover .text1 {
+	background-color: #0ba1e4;
+	color: #fafafa;
+	display: block;
+
+}
+.wrapper ul li:hover .text1 img{
+width: 100px;
+height: 100px;
+}
+
+/* 结束 */
